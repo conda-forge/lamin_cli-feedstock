@@ -1,6 +1,6 @@
 context:
   name: lamin_cli
-  version: "1.15.0"
+  version: "1.18.1"
   python_min: '3.10'
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/lamin_cli-${{ version }}.tar.gz
-  sha256: 7332a15adeb47cd8b5205dabd6ef7a1f2748f61ce16e5cb255a20b302ba09b16
+  sha256: 10dc091d1125952e2eca5d2ef60ef1421f5be894a86154e07b71428f168239ad
 
 build:
   number: 0
